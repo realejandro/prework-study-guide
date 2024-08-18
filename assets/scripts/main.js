@@ -1,15 +1,24 @@
+var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 
-var topics = "html, css javasript y github";
+var topic = "HTML";
 
-console.log(topics);
-
-function addNum( a, b) {
-    var sum = a + b;
-    return sum;
+for (var x = 0; x < topics.length; x++) {
+ if(topic === topics[x]){
+    console.log("Let's study " + topics[x]);
+ }
 }
 
-function getName(name) {
-    return "Hi my name is: " + name;
-}
 
-console.log(getName("Alejandro"));
+/*
+if (topic === 'HTML') {
+ console.log("Let's study HTML!");
+} else if (topic === 'CSS') {
+ console.log("Let's study CSS!");
+} else if (topic === 'Git') {
+ console.log("Let's study Git!");
+} else if (topic === 'JavaScript') {
+ console.log("Let's study JavaScript!");
+} else {
+ console.log('Please try again!');
+}
+*/
